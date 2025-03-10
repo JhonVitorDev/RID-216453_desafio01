@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#SUPERIOR {
+    width: 100%;
+    background-color: #303030;
+
+    color: white;
+    padding: 4rem;
+
+}
+
+#DESCRICAO {
+    color: #FFFFFF;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0;
+    font-size: 15px;
+}
+
+.INFORMACIONAL {
+    background-color: #EAECE5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.DADOS {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.HISTORIA {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    flex-wrap: nowrap;
+}
+
+.texto {
+    width: 50%;
+    text-align: left;
+}
+
+.texto h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.texto p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.imagem-sala {
+    width: 45%;
+}
+
+.imagem-sala img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+@media (max-width: 768px) {
+    .HISTORIA {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .imagem-sala {
+        width: 100%;
+    }
+
+    .imagem-sala {
+        margin-top: 20px;
+    }
+}
+
+#captacao {
+    text-align: center;
+    padding: 1rem;
+    background-color: #303030;
+    color: #FFFFFF;
+}
+
+#Formulario {
+    text-align: center;
+}
+
+#Titulo-Formulario {
+    text-align: center;
+    font-size: 25px;
+    margin: 25px;
+    color: #FFFFFF
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    background-color: #EAECE5;
+    margin-top: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button {
+    text-align: center;
+    background-color: #C07212;
+    margin-top: 15px;
+    height: 40px;
+    width: 250px;
+    color: #EAECE5;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f1992ef5;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #05103081;
+    transition-duration: 0.5s;
+}
+
+* {
+    margin: 0px;
+}
+
+#logo:hover {
+    border-radius: 15%;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px hsl(0, 0%, 100%);
+    transition-duration: 0.5s;
+
+}
